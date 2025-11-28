@@ -1,0 +1,7 @@
+This chatbot was created using Python, Streamlit, and the Gemini API. 
+The app allows the user to type a message, send it to the Gemini model, and receive a response in a clean chat interface. 
+The full conversation is stored using Streamlit’s session state, which makes the chat history appear even after each rerun. 
+The prompt strategy includes a system instruction that changes based on the selected chatbot personality. 
+All messages are displayed in bubble-style formatting with timestamps for better readability. 
+I also added optional bonus features including a personality selector and a clear chat history button. 
+This project demonstrates UI building, state management, API usage, and basic prompt design.
